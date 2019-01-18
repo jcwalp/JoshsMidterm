@@ -1,0 +1,41 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+iframe {
+  display: block;
+  margin: 1em auto;
+  padding-top: 2em;
+}
+
+hr.white-line {
+  background-color: white;
+  width: 50%;
+  height: 2%;
+}
+
+a.brand {
+  font-size: 60px !important;
+  color: white !important;
+}
+
+a.link {
+  display: block;
+  font-size: 30px;
+  color: white;
+  padding: 1.5em;
+}
+
+.intro {
+  background-image: url("./images/bentley.jpg");
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}

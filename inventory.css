@@ -1,0 +1,48 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.intro {
+  background-image: url("./images/bentley.jpg");
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+button > img {
+  width: 40%;
+  height: auto;
+}
+
+.image-container > img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+
+a.brand {
+  font-size: 60px !important;
+  color: white !important;
+}
+
+.brand-cont {
+  margin-bottom: 2em;
+}
+
+hr {
+  background-color: white;
+  width: 50%;
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+  height: .5% !important;
+}
